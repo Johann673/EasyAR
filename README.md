@@ -17,6 +17,12 @@ En cours...
 
 ## Utilisation
 - Importer la bibliothèque
+- Ajouter les permissions dans le manifest
+```xml
+<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+<uses-permission android:name="android.permission.CAMERA" />
+```
 - Créer une activité de type FragmentActivity
 ```java
 public class MainActivity extends FragmentActivity {
