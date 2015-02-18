@@ -54,11 +54,11 @@ public class ARMarker<T> {
         this.mLayout = layout;
     }
 
-    public String getmName() {
+    public String getName() {
         return mName;
     }
 
-    public void setmName(String mName) {
+    public void setName(String mName) {
         this.mName = mName;
     }
 
