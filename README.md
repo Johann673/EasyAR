@@ -12,8 +12,17 @@ Screenshots en cours...
 
 ## Importer la bibliothèque
 ### Eclipse
-En cours...
+Télécharger la bibliothèque au format aar sur le [dépot maven](http://mvnrepository.com/artifact/com.github.johann673/easyar/1.0.0) et importée la dans Eclipse.
 ### Android Studio
+Ajouter ces lignes dans le fichier de configuration ```build.gradle``` :
+```gradle
+dependencies {
+    repositories {
+        mavenCentral()
+    }
+    compile 'com.github.johann673:easyar:1.0.0'
+}
+```
 
 ## Utilisation
 - Importer la bibliothèque
